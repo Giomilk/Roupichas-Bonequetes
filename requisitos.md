@@ -16,10 +16,11 @@ qualquer usuário, para auditorias futuras.
 - em outra tela vai ter um catalogo de roupas e acessórios para personalizar.
   as personalizações são: CABELO, ROSTOS, ROUPAS SAPATOS E ACESSÓRIOS.
   NOS CABELOS PODEMOS ESCOLHER TIPOS E CORES
-  NOS ROSTOS VAI TER VARIOS TIPOS DE ROSOS PRONTOS, TIPO ROSTINHOS DA POLLY MAS PODEM SER OUTROS TIPOS
+  NOS ROSTOS VAI TER VARIOS TIPOS DE ROSOS PRONTOS, TIPO ROSTINHOS DO ROBLOX MAS PODEM SER OUTROS TIPOS
   NAS ROUPAS VAI SER MODULAR, BLUSAS, CALÇAS, SAIAS SHORTS E ETC.
   VARIOS TIPOS DE SAPATOS, E ACESSÓRIOS.
   QUALQUER PESSOA PODE ENVIAR AS SPRITES EM PNG PRA PERSONALIZR TODOS OS ITENS PERSONALIZAVEIS. NÃO SE LIMITANDO AOS ITENS JA ACRESCIDOS NO JOGO.
+  
 
 
 ##### Regras Globais
@@ -29,3 +30,4 @@ qualquer usuário, para auditorias futuras.
  - Estilize as telas em Tailwind de forma responsiva priorizando o MobileFrist.
  - Retorne sempre as mensagens de erros de forma claras na interface para o usuário (TOAST)
  - sempre trate as mensagens de caixa de mensagens nativas do navegador em um MODAL
+ - separe todos os itens em pastas lógicas
