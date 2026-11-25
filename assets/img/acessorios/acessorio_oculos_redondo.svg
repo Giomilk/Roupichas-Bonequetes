@@ -1,14 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290 560" width="290" height="560">
+    <!-- Óculos alinhados aos olhos do boneco (cx=140, cy=126) -->
     <!-- Lente Esquerda -->
-    <circle cx="125" cy="118" r="16" fill="#e0f2fe" opacity="0.55" stroke="#f59e0b" stroke-width="3"/>
+    <circle cx="120" cy="126" r="16" fill="#e0f2fe" opacity="0.55" stroke="#f59e0b" stroke-width="3"/>
     <!-- Lente Direita -->
-    <circle cx="165" cy="118" r="16" fill="#e0f2fe" opacity="0.55" stroke="#f59e0b" stroke-width="3"/>
+    <circle cx="160" cy="126" r="16" fill="#e0f2fe" opacity="0.55" stroke="#f59e0b" stroke-width="3"/>
     <!-- Ponte Central -->
-    <path d="M 141 115 Q 145 110 149 115" fill="none" stroke="#f59e0b" stroke-width="3"/>
-    <!-- Hastes laterais -->
-    <line x1="109" y1="118" x2="98" y2="114" stroke="#f59e0b" stroke-width="3"/>
-    <line x1="181" y1="118" x2="192" y2="114" stroke="#f59e0b" stroke-width="3"/>
+    <path d="M 136 123 Q 140 118 144 123" fill="none" stroke="#f59e0b" stroke-width="3"/>
+    <!-- Hastes laterais alcançando as laterais da cabeça -->
+    <line x1="104" y1="126" x2="77" y2="122" stroke="#f59e0b" stroke-width="3"/>
+    <line x1="176" y1="126" x2="203" y2="122" stroke="#f59e0b" stroke-width="3"/>
     <!-- Brilho no vidro -->
-    <line x1="120" y1="110" x2="132" y2="122" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
-    <line x1="160" y1="110" x2="172" y2="122" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+    <line x1="115" y1="118" x2="127" y2="130" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+    <line x1="155" y1="118" x2="167" y2="130" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
 </svg>

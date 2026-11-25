@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290 560" width="290" height="560">
     <clipPath id="skirtClip">
-        <path d="M 114 280 Q 145 285 176 280 L 195 365 Q 145 380 95 365 Z"/>
+        <path d="M 108 288 Q 140 294 172 288 L 195 378 Q 140 394 85 378 Z"/>
     </clipPath>
-    <path d="M 114 280 Q 145 285 176 280 L 195 365 Q 145 380 95 365 Z" fill="#ddd6fe" stroke="#6d28d9" stroke-width="2.5"/>
+    <path d="M 108 288 Q 140 294 172 288 L 195 378 Q 140 394 85 378 Z" fill="#ddd6fe" stroke="#6d28d9" stroke-width="2.5"/>
     <g clip-path="url(#skirtClip)">
-        <line x1="115" y1="280" x2="110" y2="380" stroke="#f472b6" stroke-width="5"/>
-        <line x1="145" y1="280" x2="145" y2="380" stroke="#f472b6" stroke-width="5"/>
-        <line x1="175" y1="280" x2="180" y2="380" stroke="#f472b6" stroke-width="5"/>
-        <line x1="80" y1="310" x2="210" y2="310" stroke="#f472b6" stroke-width="5"/>
-        <line x1="80" y1="340" x2="210" y2="340" stroke="#f472b6" stroke-width="5"/>
-        <line x1="130" y1="280" x2="130" y2="380" stroke="#ffffff" stroke-width="2"/>
-        <line x1="160" y1="280" x2="160" y2="380" stroke="#ffffff" stroke-width="2"/>
-        <line x1="80" y1="325" x2="210" y2="325" stroke="#ffffff" stroke-width="2"/>
+        <line x1="110" y1="288" x2="103" y2="390" stroke="#f472b6" stroke-width="5"/>
+        <line x1="140" y1="288" x2="140" y2="390" stroke="#f472b6" stroke-width="5"/>
+        <line x1="170" y1="288" x2="177" y2="390" stroke="#f472b6" stroke-width="5"/>
+        <line x1="75" y1="320" x2="205" y2="320" stroke="#f472b6" stroke-width="5"/>
+        <line x1="75" y1="352" x2="205" y2="352" stroke="#f472b6" stroke-width="5"/>
+        <line x1="125" y1="288" x2="122" y2="390" stroke="#ffffff" stroke-width="2"/>
+        <line x1="155" y1="288" x2="158" y2="390" stroke="#ffffff" stroke-width="2"/>
+        <line x1="75" y1="336" x2="205" y2="336" stroke="#ffffff" stroke-width="2"/>
     </g>
 </svg>

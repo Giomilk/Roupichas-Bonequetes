@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290 560" width="290" height="560">
-    <!-- Mangas Bufantes Pretas -->
-    <circle cx="95" cy="210" r="16" fill="#18181b" stroke="#3f3f46" stroke-width="2"/>
-    <circle cx="195" cy="210" r="16" fill="#18181b" stroke="#3f3f46" stroke-width="2"/>
-    <!-- Top Coração -->
-    <path d="M 115 198 Q 130 205 145 200 Q 160 205 175 198 L 175 255 Q 145 262 115 255 Z" fill="#18181b" stroke="#3f3f46" stroke-width="2.5" stroke-linejoin="round"/>
+    <!-- Mangas Bufantes Pretas nos ombros -->
+    <circle cx="98" cy="233" r="15" fill="#18181b" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="182" cy="233" r="15" fill="#18181b" stroke="#3f3f46" stroke-width="2"/>
+    <!-- Top Coração Cropped -->
+    <path d="M 108 220 Q 124 228 140 222 Q 156 228 172 220 L 170 274 Q 140 280 110 274 Z" fill="#18181b" stroke="#3f3f46" stroke-width="2.5" stroke-linejoin="round"/>
     <!-- Lacinho Rosa no Peito -->
-    <polygon points="145,210 140,205 140,215" fill="#f43f5e"/>
-    <polygon points="145,210 150,205 150,215" fill="#f43f5e"/>
-    <circle cx="145" cy="210" r="2.5" fill="#ffffff"/>
+    <polygon points="140,234 134,229 134,239" fill="#f43f5e"/>
+    <polygon points="140,234 146,229 146,239" fill="#f43f5e"/>
+    <circle cx="140" cy="234" r="2.5" fill="#ffffff"/>
 </svg>

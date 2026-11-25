@@ -102,8 +102,9 @@ h1, h2, h3, .font-kawaii {
 /* Contêiner do Avatar e Camadas */
 .avatar-stage {
     position: relative;
-    width: 290px;
-    height: 560px;
+    width: 100%;
+    max-width: 290px;
+    aspect-ratio: 290 / 560;
     margin: 0 auto;
     overflow: hidden;
     user-select: none;
@@ -115,6 +116,7 @@ h1, h2, h3, .font-kawaii {
     left: 0;
     width: 100%;
     height: 100%;
+    object-fit: fill;
     pointer-events: none;
     transition: filter 0.2s ease, transform 0.2s ease;
 }

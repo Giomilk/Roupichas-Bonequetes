@@ -1,10 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290 560" width="290" height="560">
-    <path d="M 114 278 Q 145 284 176 278 L 180 330 L 155 335 L 145 320 L 135 335 L 110 330 Z" fill="#60a5fa" stroke="#1d4ed8" stroke-width="2.5" stroke-linejoin="round"/>
+    <!-- Shorts Jeans ajustado à cintura (y=288), quadris (x=93..187) e virilha (y=352) -->
+    <path d="M 109 288 Q 140 294 171 288 L 187 350 L 186 376 L 144 378 L 140 353 L 136 378 L 94 376 L 93 350 Z" fill="#60a5fa" stroke="#1d4ed8" stroke-width="2.5" stroke-linejoin="round"/>
     <!-- Costuras Amarelas -->
-    <path d="M 145 282 V 320" stroke="#fef08a" stroke-width="1.8" stroke-dasharray="3,2"/>
-    <path d="M 120 286 Q 130 295 130 305" fill="none" stroke="#fef08a" stroke-width="1.8" stroke-dasharray="3,2"/>
-    <path d="M 170 286 Q 160 295 160 305" fill="none" stroke="#fef08a" stroke-width="1.8" stroke-dasharray="3,2"/>
+    <path d="M 140 291 V 353" stroke="#fef08a" stroke-width="1.8" stroke-dasharray="3,2"/>
+    <path d="M 114 295 Q 124 304 124 314" fill="none" stroke="#fef08a" stroke-width="1.8" stroke-dasharray="3,2"/>
+    <path d="M 166 295 Q 156 304 156 314" fill="none" stroke="#fef08a" stroke-width="1.8" stroke-dasharray="3,2"/>
     <!-- Barra Desfiada -->
-    <line x1="110" y1="332" x2="135" y2="337" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
-    <line x1="155" y1="337" x2="180" y2="332" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+    <line x1="94" y1="378" x2="136" y2="380" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+    <line x1="144" y1="380" x2="186" y2="378" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
 </svg>

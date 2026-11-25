@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290 560" width="290" height="560">
-    <!-- Arco da Tiara -->
-    <path d="M 98 70 Q 145 35 192 70" fill="none" stroke="#f472b6" stroke-width="4" stroke-linecap="round"/>
+    <!-- Arco da Tiara encaixado no topo da cabeça (cx=140) -->
+    <path d="M 80 84 Q 140 24 200 84" fill="none" stroke="#f472b6" stroke-width="4.5" stroke-linecap="round"/>
     <!-- Orelhinha Esquerda -->
-    <polygon points="105,62 108,30 128,52" fill="#ec4899" stroke="#9d174d" stroke-width="2.5" stroke-linejoin="round"/>
-    <polygon points="110,58 112,38 124,52" fill="#fbcfe8"/>
+    <polygon points="94,68 96,30 120,52" fill="#ec4899" stroke="#9d174d" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="99,62 100,38 115,52" fill="#fbcfe8"/>
     <!-- Orelhinha Direita -->
-    <polygon points="185,62 182,30 162,52" fill="#ec4899" stroke="#9d174d" stroke-width="2.5" stroke-linejoin="round"/>
-    <polygon points="180,58 178,38 166,52" fill="#fbcfe8"/>
+    <polygon points="186,68 184,30 160,52" fill="#ec4899" stroke="#9d174d" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="181,62 180,38 165,52" fill="#fbcfe8"/>
 </svg>

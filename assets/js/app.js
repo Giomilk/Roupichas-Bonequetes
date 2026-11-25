@@ -409,32 +409,54 @@ const BonequeteApp = (function() {
         canvas.height = 560;
         const ctx = canvas.getContext('2d');
 
+        const corSelecionada = paletaCoresCabelo.find(c => c.hex === state.cabelo_cor);
+        const filtroCabelo = corSelecionada ? corSelecionada.filter : 'none';
+
         // Ordem lógica das camadas
         const camadas = [
-            state.cenario,
-            state.base_avatar,
-            state.calca,
-            state.blusa,
-            state.vestido,
-            state.sapato,
-            state.cabelo,
-            state.rosto,
-            state.acessorio
-        ].filter(Boolean);
+            { src: state.cenario, isCenario: true },
+            { src: state.base_avatar },
+            { src: state.calca },
+            { src: state.blusa },
+            { src: state.vestido },
+            { src: state.sapato },
+            { src: state.cabelo, filter: filtroCabelo },
+            { src: state.rosto },
+            { src: state.acessorio }
+        ].filter(c => Boolean(c.src));
 
-        for (const src of camadas) {
+        ctx.save();
+        if (state.flip === -1) {
+            ctx.translate(290, 0);
+            ctx.scale(-1, 1);
+        }
+
+        for (const camada of camadas) {
             await new Promise((resolve) => {
                 const img = new Image();
                 img.crossOrigin = 'anonymous';
                 img.onload = () => {
-                    ctx.drawImage(img, 0, 0, 290, 560);
+                    ctx.save();
+                    if (camada.filter && camada.filter !== 'none') {
+                        ctx.filter = camada.filter;
+                    }
+                    if (camada.isCenario && img.width && img.height) {
+                        const scale = Math.max(290 / img.width, 560 / img.height);
+                        const dw = img.width * scale;
+                        const dh = img.height * scale;
+                        ctx.drawImage(img, (290 - dw) / 2, (560 - dh) / 2, dw, dh);
+                    } else {
+                        ctx.drawImage(img, 0, 0, 290, 560);
+                    }
+                    ctx.restore();
                     resolve();
                 };
                 img.onerror = () => resolve();
-                img.src = src;
+                img.src = camada.src;
             });
         }
 
+        ctx.restore();
         return canvas;
     }
 
