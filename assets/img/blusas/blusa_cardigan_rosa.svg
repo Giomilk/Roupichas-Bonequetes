@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290 560" width="290" height="560">
+    <!-- Mangas -->
+    <path d="M 100 200 L 70 260 L 85 270 L 115 220 Z" fill="#f472b6" stroke="#db2777" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M 190 200 L 220 260 L 205 270 L 175 220 Z" fill="#f472b6" stroke="#db2777" stroke-width="2.5" stroke-linejoin="round"/>
+    <!-- Punhos -->
+    <ellipse cx="78" cy="265" rx="9" ry="5" fill="#fbcfe8" stroke="#db2777" stroke-width="1.5"/>
+    <ellipse cx="212" cy="265" rx="9" ry="5" fill="#fbcfe8" stroke="#db2777" stroke-width="1.5"/>
+    <!-- Corpo do Cardigan -->
+    <path d="M 115 195 Q 145 220 175 195 L 180 285 Q 145 295 110 285 Z" fill="#f472b6" stroke="#db2777" stroke-width="2.5" stroke-linejoin="round"/>
+    <!-- Decote V e Botões -->
+    <path d="M 130 198 L 145 235 L 160 198" fill="none" stroke="#db2777" stroke-width="2"/>
+    <circle cx="145" cy="245" r="3" fill="#ffffff" stroke="#db2777" stroke-width="1.5"/>
+    <circle cx="145" cy="260" r="3" fill="#ffffff" stroke="#db2777" stroke-width="1.5"/>
+    <circle cx="145" cy="275" r="3" fill="#ffffff" stroke="#db2777" stroke-width="1.5"/>
+    <!-- Bolsinhos fofos -->
+    <rect x="118" y="260" width="16" height="14" rx="3" fill="#fbcfe8" stroke="#db2777" stroke-width="1.5"/>
+    <rect x="156" y="260" width="16" height="14" rx="3" fill="#fbcfe8" stroke="#db2777" stroke-width="1.5"/>
+</svg>

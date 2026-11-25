@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290 560" width="290" height="560">
+    <!-- Meia Branca com Babado -->
+    <rect x="124" y="495" width="16" height="25" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+    <rect x="150" y="495" width="16" height="25" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+    <!-- Babado da Meia -->
+    <circle cx="126" cy="495" r="4" fill="#ffffff"/><circle cx="132" cy="495" r="4" fill="#ffffff"/><circle cx="138" cy="495" r="4" fill="#ffffff"/>
+    <circle cx="152" cy="495" r="4" fill="#ffffff"/><circle cx="158" cy="495" r="4" fill="#ffffff"/><circle cx="164" cy="495" r="4" fill="#ffffff"/>
+    <!-- Sapatilha Mary Jane Preta Verniz -->
+    <ellipse cx="132" cy="535" rx="14" ry="12" fill="#18181b" stroke="#000000" stroke-width="2"/>
+    <rect x="122" y="525" width="20" height="5" rx="2" fill="#27272a" stroke="#000000" stroke-width="1.5"/>
+    <circle cx="124" cy="527" r="2" fill="#fef08a"/>
+    <ellipse cx="158" cy="535" rx="14" ry="12" fill="#18181b" stroke="#000000" stroke-width="2"/>
+    <rect x="148" y="525" width="20" height="5" rx="2" fill="#27272a" stroke="#000000" stroke-width="1.5"/>
+    <circle cx="166" cy="527" r="2" fill="#fef08a"/>
+</svg>

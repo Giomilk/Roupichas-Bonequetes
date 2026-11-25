@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290 560" width="290" height="560">
+    <!-- Cós da Saia -->
+    <path d="M 114 280 Q 145 285 176 280 L 176 295 Q 145 300 114 295 Z" fill="#ec4899" stroke="#9d174d" stroke-width="2"/>
+    <!-- Pregas Rodadas -->
+    <path d="M 114 295 L 90 370 Q 145 385 200 370 L 176 295 Q 145 300 114 295 Z" fill="#f472b6" stroke="#9d174d" stroke-width="2.5" stroke-linejoin="round"/>
+    <!-- Linhas das Pregas Plissadas -->
+    <line x1="110" y1="298" x2="105" y2="373" stroke="#db2777" stroke-width="2"/>
+    <line x1="125" y1="299" x2="124" y2="377" stroke="#db2777" stroke-width="2"/>
+    <line x1="140" y1="300" x2="142" y2="380" stroke="#db2777" stroke-width="2"/>
+    <line x1="155" y1="299" x2="160" y2="377" stroke="#db2777" stroke-width="2"/>
+    <line x1="170" y1="298" x2="180" y2="373" stroke="#db2777" stroke-width="2"/>
+</svg>

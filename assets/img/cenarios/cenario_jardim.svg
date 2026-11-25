@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1200" width="100%" height="100%">
+            <defs>
+                <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#bae6fd"/><stop offset="100%" stop-color="#e0f2fe"/></linearGradient>
+                <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#86efac"/><stop offset="100%" stop-color="#4ade80"/></linearGradient>
+            </defs>
+            <rect width="800" height="850" fill="url(#sky)"/>
+            <rect y="850" width="800" height="350" fill="url(#grass)"/>
+            <!-- Arco-íris Pastel -->
+            <ellipse cx="400" cy="850" rx="380" ry="380" fill="none" stroke="#fbcfe8" stroke-width="16" opacity="0.6"/>
+            <ellipse cx="400" cy="850" rx="364" ry="364" fill="none" stroke="#fef08a" stroke-width="16" opacity="0.6"/>
+            <ellipse cx="400" cy="850" rx="348" ry="348" fill="none" stroke="#bbf7d0" stroke-width="16" opacity="0.6"/>
+            <ellipse cx="400" cy="850" rx="332" ry="332" fill="none" stroke="#bfdbfe" stroke-width="16" opacity="0.6"/>
+            <!-- Nuvenzinhas Fofas -->
+            <path d="M 120 250 Q 150 200 200 220 Q 250 190 280 240 Q 310 270 270 300 Q 220 320 160 300 Q 100 290 120 250 Z" fill="#ffffff" opacity="0.9"/>
+            <path d="M 520 200 Q 550 150 600 170 Q 650 140 680 190 Q 710 220 670 250 Q 620 270 560 250 Q 500 240 520 200 Z" fill="#ffffff" opacity="0.9"/>
+            <!-- Flores no Chão -->
+            <circle cx="150" cy="950" r="15" fill="#f43f5e"/><circle cx="150" cy="950" r="6" fill="#fef08a"/>
+            <circle cx="650" cy="980" r="18" fill="#ec4899"/><circle cx="650" cy="980" r="7" fill="#fef08a"/>
+            <circle cx="280" cy="1050" r="14" fill="#a855f7"/><circle cx="280" cy="1050" r="5" fill="#fef08a"/>
+            <circle cx="520" cy="1080" r="16" fill="#38bdf8"/><circle cx="520" cy="1080" r="6" fill="#fef08a"/>
+        </svg>

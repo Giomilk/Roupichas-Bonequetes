@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290 560" width="290" height="560">
+    <!-- Mangas Curtas -->
+    <path d="M 105 198 L 78 225 L 95 240 L 118 220 Z" fill="#ffffff" stroke="#4b5563" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M 185 198 L 212 225 L 195 240 L 172 220 Z" fill="#ffffff" stroke="#4b5563" stroke-width="2" stroke-linejoin="round"/>
+    <!-- Corpo da T-shirt -->
+    <path d="M 115 195 Q 145 208 175 195 L 180 280 Q 145 285 110 280 Z" fill="#ffffff" stroke="#4b5563" stroke-width="2" stroke-linejoin="round"/>
+    <!-- Estampa Coração Kawaii -->
+    <path d="M 145 230 C 145 220 133 212 125 222 C 117 232 127 244 145 255 C 163 244 173 232 165 222 C 157 212 145 220 145 230 Z" fill="#f43f5e"/>
+    <!-- Gola canelada -->
+    <path d="M 125 195 Q 145 208 165 195" fill="none" stroke="#f43f5e" stroke-width="3"/>
+</svg>

@@ -1,0 +1,210 @@
+/* ========================================================
+   Roupichas-Bonequetes - Estilos Personalizados Kawaii
+   ======================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Nunito:wght@400;600;700;800;900&display=swap');
+
+:root {
+    --bg-pink-pattern: #fdf2f4;
+    --primary-pink: #f472b6;
+    --primary-pink-dark: #db2777;
+    --card-pink-light: #fff0f3;
+    --card-pink-border: #fbcfe8;
+    --accent-yellow: #fef08a;
+    --text-dark: #643843;
+}
+
+body {
+    font-family: 'Nunito', 'Comfortaa', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: var(--bg-pink-pattern);
+    background-image: radial-gradient(#f9a8d4 1.8px, transparent 1.8px);
+    background-size: 26px 26px;
+    color: var(--text-dark);
+    min-height: 100vh;
+}
+
+/* Títulos com fonte fofa arredondada */
+h1, h2, h3, .font-kawaii {
+    font-family: 'Comfortaa', 'Nunito', cursive, sans-serif;
+}
+
+/* Scrollbar Personalizada Fofinha */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #fce7f3;
+    border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb {
+    background: #f472b6;
+    border-radius: 9999px;
+    border: 2px solid #fce7f3;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #db2777;
+}
+
+/* Moldura Kawaii Rosa dos Cards */
+.kawaii-card {
+    background-color: #ffffff;
+    border: 3px solid #fbcfe8;
+    border-radius: 2rem;
+    box-shadow: 0 8px 24px -4px rgba(244, 114, 182, 0.18), 0 4px 8px -2px rgba(244, 114, 182, 0.12);
+    transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.kawaii-card-pink {
+    background-color: #fff1f2;
+    border: 3px solid #fecdd3;
+    border-radius: 2rem;
+    box-shadow: 0 8px 20px -4px rgba(251, 113, 133, 0.15);
+}
+
+/* Botões Kawaii com relevo e animação de clique */
+.kawaii-btn {
+    border-radius: 9999px;
+    font-weight: 800;
+    transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+    box-shadow: 0 4px 14px 0 rgba(244, 114, 182, 0.39);
+    cursor: pointer;
+    user-select: none;
+}
+.kawaii-btn:hover {
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 6px 20px 0 rgba(244, 114, 182, 0.55);
+}
+.kawaii-btn:active {
+    transform: translateY(1px) scale(0.98);
+    box-shadow: 0 2px 8px 0 rgba(244, 114, 182, 0.3);
+}
+
+.kawaii-btn-pink {
+    background: linear-gradient(135deg, #f472b6 0%, #ec4899 100%);
+    color: #ffffff;
+    border: 2px solid #db2777;
+}
+.kawaii-btn-pink:hover {
+    background: linear-gradient(135deg, #ec4899 0%, #db2777 100%);
+}
+
+.kawaii-btn-outline {
+    background: #ffffff;
+    color: #db2777;
+    border: 2px solid #f472b6;
+}
+.kawaii-btn-outline:hover {
+    background: #fdf2f8;
+    border-color: #ec4899;
+}
+
+/* Contêiner do Avatar e Camadas */
+.avatar-stage {
+    position: relative;
+    width: 290px;
+    height: 560px;
+    margin: 0 auto;
+    overflow: hidden;
+    user-select: none;
+}
+
+.avatar-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    transition: filter 0.2s ease, transform 0.2s ease;
+}
+
+/* Camadas de Z-Index ordenadas logicamente */
+.layer-cenario    { z-index: 1; width: 100%; height: 100%; object-fit: cover; }
+.layer-base       { z-index: 10; }
+.layer-calca      { z-index: 30; }
+.layer-blusa      { z-index: 40; }
+.layer-vestido    { z-index: 45; }
+.layer-sapato     { z-index: 50; }
+.layer-cabelo     { z-index: 60; }
+.layer-rosto      { z-index: 65; }
+.layer-acessorio  { z-index: 70; }
+
+/* Animações Fofas */
+@keyframes pulseHeart {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.12); }
+}
+.animate-heart {
+    animation: pulseHeart 1.8s infinite ease-in-out;
+}
+
+@keyframes floatSoft {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-6px); }
+}
+.animate-float {
+    animation: floatSoft 3s ease-in-out infinite;
+}
+
+/* Grade de Itens do Catálogo */
+.item-slot {
+    aspect-ratio: 1;
+    background: #ffffff;
+    border: 2px solid #fbcfe8;
+    border-radius: 1.25rem;
+    transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    padding: 0.5rem;
+}
+.item-slot:hover {
+    transform: translateY(-3px) scale(1.04);
+    border-color: #f472b6;
+    box-shadow: 0 6px 16px -2px rgba(244, 114, 182, 0.3);
+}
+.item-slot.selected {
+    border-color: #ec4899;
+    border-width: 3px;
+    background-color: #fdf2f8;
+    box-shadow: 0 0 0 3px rgba(236, 72, 153, 0.25);
+}
+.item-slot.selected::after {
+    content: '✓';
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    background: #ec4899;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 900;
+    width: 18px;
+    height: 18px;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Seletor de Cores de Cabelo */
+.color-dot {
+    width: 28px;
+    height: 28px;
+    border-radius: 9999px;
+    border: 3px solid #ffffff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+.color-dot:hover {
+    transform: scale(1.2);
+}
+.color-dot.active {
+    transform: scale(1.25);
+    border-color: #ec4899;
+    box-shadow: 0 0 0 2px #f472b6;
+}

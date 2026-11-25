@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290 560" width="290" height="560">
+    <clipPath id="shirtClip">
+        <path d="M 120 195 L 112 280 Q 145 285 178 280 L 170 195 Q 155 210 145 210 Q 135 210 120 195 Z"/>
+    </clipPath>
+    <path d="M 120 195 L 112 280 Q 145 285 178 280 L 170 195 Q 155 210 145 210 Q 135 210 120 195 Z" fill="#ffffff" stroke="#1f2937" stroke-width="2.5"/>
+    <g clip-path="url(#shirtClip)">
+        <rect x="100" y="215" width="90" height="10" fill="#3b82f6"/>
+        <rect x="100" y="235" width="90" height="10" fill="#3b82f6"/>
+        <rect x="100" y="255" width="90" height="10" fill="#3b82f6"/>
+        <rect x="100" y="275" width="90" height="10" fill="#3b82f6"/>
+    </g>
+</svg>

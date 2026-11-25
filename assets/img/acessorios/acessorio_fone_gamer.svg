@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290 560" width="290" height="560">
+    <!-- Arco do Headset -->
+    <path d="M 90 100 Q 145 30 200 100" fill="none" stroke="#ec4899" stroke-width="6" stroke-linecap="round"/>
+    <!-- Orelhas com LED no Arco -->
+    <polygon points="110,65 115,35 135,55" fill="#f43f5e" stroke="#be123c" stroke-width="2"/>
+    <polygon points="114,60 118,40 130,52" fill="#38bdf8"/>
+    <polygon points="180,65 175,35 155,55" fill="#f43f5e" stroke="#be123c" stroke-width="2"/>
+    <polygon points="176,60 172,40 160,52" fill="#38bdf8"/>
+    <!-- Almofadas auriculares -->
+    <ellipse cx="90" cy="115" rx="10" ry="16" fill="#be123c" stroke="#881337" stroke-width="2"/>
+    <ellipse cx="200" cy="115" rx="10" ry="16" fill="#be123c" stroke="#881337" stroke-width="2"/>
+    <!-- Microfone fofo com coração -->
+    <path d="M 90 125 Q 105 145 125 145" fill="none" stroke="#be123c" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="127" cy="145" r="4" fill="#f43f5e"/>
+</svg>

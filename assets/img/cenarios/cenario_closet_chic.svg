@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1200" width="100%" height="100%">
+            <defs>
+                <linearGradient id="closetWall" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fdf2f8"/><stop offset="100%" stop-color="#fce7f3"/></linearGradient>
+                <linearGradient id="marble" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f8fafc"/><stop offset="100%" stop-color="#e2e8f0"/></linearGradient>
+            </defs>
+            <rect width="800" height="920" fill="url(#closetWall)"/>
+            <rect y="920" width="800" height="280" fill="url(#marble)"/>
+            <!-- Arara de Roupas à Esquerda -->
+            <rect x="60" y="200" width="12" height="720" rx="6" fill="#f472b6"/>
+            <rect x="240" y="200" width="12" height="720" rx="6" fill="#f472b6"/>
+            <rect x="50" y="240" width="210" height="10" rx="5" fill="#f43f5e"/>
+            <!-- Cabides com Vestidinhos -->
+            <path d="M 90 250 L 120 275 L 60 275 Z" fill="#fb7185"/>
+            <rect x="75" y="275" width="30" height="220" rx="8" fill="#fda4af"/>
+            <path d="M 150 250 L 180 275 L 120 275 Z" fill="#c084fc"/>
+            <rect x="135" y="275" width="30" height="200" rx="8" fill="#d8b4fe"/>
+            <path d="M 210 250 L 240 275 L 180 275 Z" fill="#38bdf8"/>
+            <rect x="195" y="275" width="30" height="230" rx="8" fill="#7dd3fc"/>
+            <!-- Espelho Camarim Oval à Direita -->
+            <ellipse cx="640" cy="500" rx="100" ry="240" fill="#ffffff" stroke="#f472b6" stroke-width="14"/>
+            <ellipse cx="640" cy="500" rx="85" ry="225" fill="#f0fdf4" opacity="0.6"/>
+            <!-- Luzes Camarim -->
+            <circle cx="545" cy="400" r="10" fill="#fef08a"/><circle cx="545" cy="500" r="10" fill="#fef08a"/><circle cx="545" cy="600" r="10" fill="#fef08a"/>
+            <circle cx="735" cy="400" r="10" fill="#fef08a"/><circle cx="735" cy="500" r="10" fill="#fef08a"/><circle cx="735" cy="600" r="10" fill="#fef08a"/>
+            <!-- Puf Felpudo Rosa -->
+            <ellipse cx="400" cy="1040" rx="170" ry="60" fill="#f472b6" opacity="0.4"/>
+            <ellipse cx="400" cy="1020" rx="160" ry="50" fill="#fb7185"/>
+        </svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290 560" width="290" height="560">
+    <!-- Mangas Bufantes Renda -->
+    <circle cx="95" cy="205" r="16" fill="#fbcfe8" stroke="#db2777" stroke-width="2"/>
+    <circle cx="195" cy="205" r="16" fill="#fbcfe8" stroke="#db2777" stroke-width="2"/>
+    <!-- Corpete Lolita -->
+    <path d="M 115 195 Q 145 208 175 195 L 172 278 Q 145 285 118 278 Z" fill="#ec4899" stroke="#9d174d" stroke-width="2.5" stroke-linejoin="round"/>
+    <!-- Laços no Corpete -->
+    <line x1="130" y1="220" x2="160" y2="240" stroke="#ffffff" stroke-width="2.5"/>
+    <line x1="160" y1="220" x2="130" y2="240" stroke="#ffffff" stroke-width="2.5"/>
+    <line x1="130" y1="240" x2="160" y2="260" stroke="#ffffff" stroke-width="2.5"/>
+    <line x1="160" y1="240" x2="130" y2="260" stroke="#ffffff" stroke-width="2.5"/>
+    <!-- Saia Volumosa Godê com Babados -->
+    <path d="M 118 278 Q 145 285 172 278 L 215 410 Q 145 435 75 410 Z" fill="#f472b6" stroke="#9d174d" stroke-width="2.5" stroke-linejoin="round"/>
+    <!-- Babado Branco de Renda na Barra -->
+    <path d="M 75 410 Q 90 425 105 415 Q 120 425 135 415 Q 150 425 165 415 Q 180 425 195 415 Q 210 425 215 410" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+    <!-- Lacinhos decorativos -->
+    <circle cx="145" cy="285" r="5" fill="#f43f5e"/>
+    <circle cx="100" cy="405" r="4" fill="#f43f5e"/>
+    <circle cx="190" cy="405" r="4" fill="#f43f5e"/>
+</svg>
