@@ -2,8 +2,8 @@
 -- Roupichas-Bonequetes - Esquema do Banco de Dados (MySQL)
 -- ========================================================
 
-CREATE DATABASE IF NOT EXISTS `roupichas_bonequetes` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE `roupichas_bonequetes`;
+CREATE DATABASE IF NOT EXISTS `if0_43449383_rouptchas` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE `if0_43449383_rouptchas`;
 
 -- Tabela de Usuários (senhas tratadas com bcrypt)
 CREATE TABLE IF NOT EXISTS `usuarios` (
